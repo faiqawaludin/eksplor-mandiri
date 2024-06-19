@@ -1,0 +1,29 @@
+body {
+    background-color: azure;
+}
+.nama-saya{
+    color : black;
+    font-size: 52px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+/*pseudo-class selector. Pseudo-class selector dalam CSS digunakan untuk menerapkan gaya ke elemen 
+berdasarkan kondisi tertentu yang tidak terkait langsung dengan struktur dokumen HTML. Memungkinkan untuk 
+merespons terhadap interaksi pengguna, seperti saat pengguna mengarahkan kursor mouse ke atas elemen (":hover"), 
+mengklik elemen (":active"), atau ketika elemen tersebut sudah dikunjungi (":visited"). Pseudo-class selector 
+digunakan dengan menambahkan dua titik dua (:) diikuti dengan nama pseudo-class yang diinginkan ke bagian akhir selector.
+/* Mengubah warna tautan menjadi biru */
+a {
+    color: blue;
+}
+
+/* Mengubah warna tautan saat dihover menjadi merah */
+a:hover {
+    color: red;
+}
+a:visited {
+    color: purple;
+}
+.link-medsos{
+    text-align: center;
+}
